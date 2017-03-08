@@ -1,0 +1,64 @@
+.weui-tab {
+    position: relative;
+    height: 100%;
+}
+
+.weui-tab__panel {
+    box-sizing: border-box;
+    height: 100%;
+    padding-bottom: 50px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.weui-tab__content{
+    display: none;
+}
+
+.weui-tabbar {
+    display: flex;
+    position: fixed;
+    z-index: 1500;
+    bottom: 0;
+    width: 100%;
+	height:68px;
+    background-color: #262667;
+}
+
+.weui-tabbar__item {
+    display: block;
+    flex: 1;
+    padding: 5px 0 0;
+    font-size: 0;
+    color: @weuiTextColorGray;
+    text-align: center;
+    .setTapColor();
+
+    &.weui-bar__item_on {
+        .weui-tabbar__icon,
+        .weui-tabbar__icon > i,
+        .weui-tabbar__label {
+            color: #09BB07;
+        }
+    }
+}
+
+
+
+.weui-tabbar__label {
+    text-align: center;
+    color: @weuiTextColorGray;
+    font-size: 10px;
+    line-height: 1.8;
+}
+.button-sp-area{
+	position: relative;
+	padding-top: 45%;
+	margin-left:0;
+	text-align: center;
+}
+#login_action{
+	position: relative;
+	padding-top: 15%;
+	margin-left:0;
+	text-align: center
+}

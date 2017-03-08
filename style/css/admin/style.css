@@ -1,0 +1,31 @@
+body {
+	font-family:'Hiragino Sans GB','Microsoft Yahei',"WenQuanYi Micro Hei",SimSun,Tahoma,Arial,Helvetica,STHeiti;
+
+	/* background-color: #BDC3C7; */
+}
+textarea {
+	resize: none;
+}
+
+.title {
+	padding-left: 30px;
+}
+
+.body-container {
+	/* border-radius: 8px;
+
+	padding: 20px;
+	box-shadow: 0 0 1px 1px #DDD; */
+
+	margin-bottom: 80px;
+}
+
+.copyright {
+	background-color: #BDC3C7;
+	text-align: center;
+	padding: 20px;
+
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
